@@ -10,7 +10,7 @@ namespace spike.web.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("Test");
         }
 
         public ActionResult About()
@@ -30,6 +30,11 @@ namespace spike.web.Controllers
         public ActionResult Admin()
         {
             return View();
+        }
+
+        public ActionResult Test()
+        {
+            return this.View();
         }
     }
 }
