@@ -26,5 +26,10 @@ namespace spike.web.Controllers
 
             return View();
         }
+
+        public ActionResult Admin()
+        {
+            return View();
+        }
     }
 }
