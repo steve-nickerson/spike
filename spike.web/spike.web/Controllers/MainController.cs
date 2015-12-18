@@ -13,5 +13,10 @@ namespace spike.web.Controllers
         {
             return View();
         }
+
+        public ActionResult About()
+        {
+            return this.View();
+        }
     }
 }

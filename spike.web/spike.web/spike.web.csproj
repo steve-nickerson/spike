@@ -158,6 +158,7 @@
     <Content Include="Views\Home\Test.cshtml" />
     <Content Include="Views\Main\Index.cshtml" />
     <Content Include="Views\Home\Index2.cshtml" />
+    <Content Include="Views\Main\About.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
