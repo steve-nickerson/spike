@@ -36,5 +36,10 @@ namespace spike.web.Controllers
         {
             return this.View();
         }
+
+        public ActionResult Index2()
+        {
+            return this.View();
+        }
     }
 }
